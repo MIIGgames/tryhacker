@@ -103,8 +103,13 @@ thead tr th.acao {
   text-align: center;
 }
 
+
 tbody tr td.acao {
   text-align: center;
+}
+
+.cor {
+    color: green;
 }
 
 @media (max-width: 700px) {

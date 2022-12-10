@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -13,7 +13,7 @@
 <body>
   <div class="container">
     <div class="header">
-      <span>Cadastro de Alunos</span>
+      <span>Gerenciador de Pentest Hacker</span>
       <button onclick="openModal()" id="new">Incluir</i></button>
     </div>
 
@@ -23,7 +23,7 @@
           <tr>
             <th>Nome</th>
             <th>Função</th>
-            <th>Debito</th>
+            <th>Dia do ataque</th>
             <th class="acao">Editar</th>
             <th class="acao">Excluir</th>
           </tr>
@@ -42,8 +42,8 @@
           <label for="m-funcao">Função</label>
           <input id="m-funcao" type="text" required />
   
-          <label for="m-salario">Debito</label>
-          <input id="m-salario" type="number" required />
+          <label for="m-salario">Dia do Ataque</label>
+          <input id="m-salario" type="datetime" required />
           <button id="btnSalvar">Salvar</button>
         </form>
       </div>

@@ -47,7 +47,7 @@ function insertItem(item, index) {
   tr.innerHTML = `
     <td>${item.nome}</td>
     <td>${item.funcao}</td>
-    <td>R$ ${item.debito}</td>
+    <td>R$ ${item.dia}</td>
     <td class="acao">
       <button onclick="editItem(${index})"><i class='bx bx-edit' ></i></button>
     </td>
@@ -71,7 +71,7 @@ btnSalvar.onclick = e => {
     itens[id].funcao = sFuncao.value
     itens[id].salario = sSalario.value
   } else {
-    itens.push({'nome': sNome.value, 'funcao': sFuncao.value, 'debito': sSalario.value})
+    itens.push({'nome': sNome.value, 'funcao': sFuncao.value, 'dia': sSalario.value})
   }
 
   setItensBD()
